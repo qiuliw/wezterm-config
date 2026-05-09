@@ -37,7 +37,9 @@ return {
    show_tab_index_in_tab_bar = false,
    switch_to_last_active_tab_when_closing_tab = true,
 
-   -- window
+   -- window (cell grid at startup; disable maximize in wezterm.lua for this to apply visually)
+   initial_cols = 120,
+   initial_rows = 32,
    window_decorations = "INTEGRATED_BUTTONS | RESIZE",
    window_padding = {
       left = 0,
